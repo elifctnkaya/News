@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/gorsel"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/baslik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="buraya baslik gelecek"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_margin="5dp"/>
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_margin="10dp"
+            android:background="#000000"/>
+    </LinearLayout>
+
+</RelativeLayout>
